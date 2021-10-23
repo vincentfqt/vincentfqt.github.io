@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "name": "vincentfqt.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentfqt/vincentfqt.github.io.git"
+  },
+  "author": "vincent-fqt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentfqt/vincentfqt.github.io/issues"
+  },
+  "homepage": "https://github.com/vincentfqt/vincentfqt.github.io#readme"
+}

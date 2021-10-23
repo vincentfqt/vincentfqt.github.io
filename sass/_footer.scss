@@ -1,0 +1,17 @@
+footer {
+    a {
+        text-decoration: none;
+        color: $themeClrPrimary;
+        transition: .3s;
+
+        i {
+            &:hover {
+                animation: pulse 1s infinite;
+                transition: .3s;
+                color: $themeClrPrimary;    
+            }
+            
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+#home {
+    height: 70vh;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0.2rem 0.1rem 0.5rem #000;
+    background:  linear-gradient(to bottom right, rgba($themeClrPrimary, 0.3),
+    rgba($themeClrPrimary, 0)), center / contain no-repeat url('../assets/img/svg/WebDeveloper_Monochromatic.svg');
+
+    a {
+        text-shadow: none;
+        &.btn {
+            transition: .3s;
+            
+            &:hover {
+                animation: pulse 1s infinite;
+                transition: .3s;    
+            }
+        }
+    }
+}

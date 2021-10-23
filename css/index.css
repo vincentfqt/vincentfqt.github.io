@@ -1,0 +1,73 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#home {
+  height: 70vh;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0.2rem 0.1rem 0.5rem #000;
+  background: linear-gradient(to bottom right, rgba(86, 26, 134, 0.3), rgba(86, 26, 134, 0)), center/contain no-repeat url("../assets/img/svg/WebDeveloper_Monochromatic.svg");
+}
+#home a {
+  text-shadow: none;
+}
+#home a.btn {
+  transition: 0.3s;
+}
+#home a.btn:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+
+#about a.btn {
+  transition: 0.3s;
+}
+#about a.btn:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+
+#projects a {
+  text-decoration: none;
+}
+#projects a.btn {
+  transition: 0.3s;
+}
+#projects a.btn:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+#projects a i {
+  color: #561a86b7;
+  transition: 0.3s;
+}
+#projects a i:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+
+#contact {
+  background: linear-gradient(to bottom right, rgba(86, 26, 134, 0.3), rgba(86, 26, 134, 0)), center/contain no-repeat url("../assets/img/svg/AnimatedShape.svg");
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #561a86b7;
+  transition: 0.3s;
+}
+footer a i:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+  color: #561a86b7;
+}
+
+/*# sourceMappingURL=index.css.map */

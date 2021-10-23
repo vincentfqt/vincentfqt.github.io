@@ -1,0 +1,13 @@
+#about {
+    
+    a {
+        &.btn {
+            transition: .3s;
+            
+            &:hover {
+                animation: pulse 1s infinite;
+                transition: .3s;    
+            }
+        }
+    }
+}
