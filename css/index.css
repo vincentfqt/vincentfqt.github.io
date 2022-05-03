@@ -46,7 +46,7 @@
   transition: 0.3s;
 }
 #projects a i {
-  color: #561a86b7;
+  color: rgba(86, 26, 134, 0.7176470588);
   transition: 0.3s;
 }
 #projects a i:hover {
@@ -61,13 +61,13 @@
 
 footer a {
   text-decoration: none;
-  color: #561a86b7;
+  color: rgba(86, 26, 134, 0.7176470588);
   transition: 0.3s;
 }
 footer a i:hover {
   animation: pulse 1s infinite;
   transition: 0.3s;
-  color: #561a86b7;
+  color: rgba(86, 26, 134, 0.7176470588);
 }
 
 /*# sourceMappingURL=index.css.map */
