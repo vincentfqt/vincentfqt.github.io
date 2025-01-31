@@ -1,404 +1,616 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Vincent-FQT</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="img-thumbnail rounded-circle d-inline-block"
-                            src="./assets/img/png/face_co_200x200.png" alt="Photo Profil">
-                        <span class="title d-inline-block">
-                            Vincent FQT
-                        </span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav nav-fill ms-auto h4">
-                            <li class="nav-item mx-2"><a href="#about" class="nav-link">A Propos</a></li>
-                            <li class="nav-item dropdown mx-2">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                    aria-expanded="false">Projets</a>
-                                <ul class="dropdown-menu text-center">
-                                    <li><a class="dropdown-item" href="#projects">Informations Projets</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#project-portfolio">Portfolio</a></li>
-                                    <li><a class="dropdown-item" href="#project-wallet-grapher">Wallet-Grapher</a></li>
-                                    <li><a class="dropdown-item" href="#project-destination-la-thierache">Destination La
-                                            Thiérache</a></li>
-                                    <li><a class="dropdown-item" href="#project-react-mixer-table">React Mixer Table</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item mx-2"><a href="#contact" class="nav-link">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div id="home" class="d-flex justify-content-center align-items-center text-center py-5">
-            <div class="d-flex flex-column">
-                <h1>Hey, je suis Vincent FQT</h1>
-                <h2>Developpeur Web / Web Mobile</h2>
-                <div class="d-grid col-6 mx-auto py-2">
-                    <a class="btn btn-secondary" role="button" aria-disabled="true" href="#projects">Voir mes
-                        projets</a>
-                </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img
+                class="img-thumbnail rounded-circle d-inline-block"
+                src="./assets/img/png/face_co_200x200.png"
+                alt="Photo Profil"
+              />
+              <span class="title d-inline-block"> Vincent FQT </span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav nav-fill ms-auto h4">
+                <li class="nav-item mx-2">
+                  <a href="#about" class="nav-link">A Propos</a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Projets</a
+                  >
+                  <ul class="dropdown-menu text-center">
+                    <li>
+                      <a class="dropdown-item" href="#projects"
+                        >Informations Projets</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#project-portfolio"
+                        >Portfolio</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#project-wallet-grapher"
+                        >Wallet-Grapher</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="#project-destination-la-thierache"
+                        >Destination La Thiérache</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#project-react-mixer-table"
+                        >React Mixer Table</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-2">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
+      </div>
+      <div
+        id="home"
+        class="d-flex justify-content-center align-items-center text-center py-5"
+      >
+        <div class="d-flex flex-column">
+          <h1>Hey, je suis Vincent FQT</h1>
+          <h2>Developpeur Web / Web Mobile</h2>
+          <div class="d-grid col-6 mx-auto py-2">
+            <a
+              class="btn btn-secondary"
+              role="button"
+              aria-disabled="true"
+              href="#projects"
+              >Voir mes projets</a
+            >
+          </div>
         </div>
-
+      </div>
     </header>
     <main>
-        <section id="about">
-            <div class="container py-5">
-                <h2 class="text-center text-uppercase">à propos</h2>
-                <hr>
+      <section id="about">
+        <div class="container py-5">
+          <h2 class="text-center text-uppercase">à propos</h2>
+          <hr />
 
-                <div class="row">
-                    <div class="col-12 col-md-6 py-2">
-                        <h3 class="text-center">Apprendre à me connaître !</h3>
-                        <p>Du milieu industriel vers celui de l'informatique, je me reconvertis de nouveau !
-                        </p>
-                        <p>Après avoir exercé les métiers de Technicien en Maintenance Industrielle, Formateur NTIC
-                            auprès du public, puis Conseiller Technique des Systèmes d'Information,
-                        </p>
-                        <p>je suis désormais <strong>Développeur Web / Web Mobile</strong></p>
-                        <p>Pratiquant le développement web et la programmation de scripts en autodidacte pendant mon
-                            temps libre et selon mes besoins/loisirs, j'ai donc choisi de concrétiser ma passion pour en
-                            faire mon métier.</p>
+          <div class="row">
+            <div class="col-12 col-md-6 py-2">
+              <h3 class="text-center">Apprendre à me connaître !</h3>
+              <p>
+                Du milieu industriel vers celui de l'informatique, je me
+                reconvertis de nouveau !
+              </p>
+              <p>
+                Après avoir exercé les métiers de Technicien en Maintenance
+                Industrielle, Formateur NTIC auprès du public, puis Conseiller
+                Technique des Systèmes d'Information,
+              </p>
+              <p>
+                je suis désormais <strong>Développeur Web / Web Mobile</strong>
+              </p>
+              <p>
+                Pratiquant le développement web et la programmation de scripts
+                en autodidacte pendant mon temps libre et selon mes
+                besoins/loisirs, j'ai donc choisi de concrétiser ma passion pour
+                en faire mon métier.
+              </p>
 
+              <div class="d-flex justify-content-center align-items-center">
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary m-2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  ...plus d'info ?
+                </button>
+                <a
+                  class="btn btn-outline-secondary m-2"
+                  role="button"
+                  aria-disabled="true"
+                  href="#contact"
+                  >Me contacter</a
+                >
+                <a
+                  class="btn btn-outline-secondary m-2"
+                  role="button"
+                  aria-disabled="true"
+                  target="_blank"
+                  href="./assets/pdf/CV-FOUQUART_VINCENT-Developpeur_Web-31012025.pdf"
+                  >Mon C.V.</a
+                >
+              </div>
 
-                        <div class="d-flex justify-content-center align-items-center">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-outline-secondary m-2" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                ...plus d'info ?
-                            </button>
-                            <a class="btn btn-outline-secondary m-2" role="button" aria-disabled="true"
-                                href="#contact">Me
-                                contacter</a>
-                            <a class="btn btn-outline-secondary m-2" role="button" aria-disabled="true" target="_blank"
-                                href="./assets/pdf/CV-FOUQUART_VINCENT-Developpeur_Web-29072023.pdf">Mon C.V.</a>
-                        </div>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="staticBackdropLabel">...Plus d'info...</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body text-justify">
-                                        <h6 class="text-center m-4">D'où vient ma passion pour l'informatique !? </h6>
-                                        <hr>
-                                        <p>
-                                            Je suis passionné d'informatique depuis mon plus jeune âge, ayant eu
-                                            l'opportunité de découvrir cet univers fascinant en utilisant des
-                                            ordinateurs personnels tels que le Thomson MO5 avec le langage BASIC, tant à
-                                            la maison qu'à l'école. Au fil du temps, j'ai suivi l'évolution rapide des
-                                            machines, des processeurs 8086, 80286, 386, 486 jusqu'aux Pentiums, ce qui a
-                                            alimenté ma curiosité naturelle pour comprendre la composition, la
-                                            réparation et la programmation des ordinateurs. Pour approfondir mes
-                                            connaissances, j'ai effectué de nombreuses recherches et lectures de manuels
-                                            spécialisés, ce qui m'a permis de progresser significativement dans ce
-                                            domaine. Fortement soutenu par une famille également passionnée par
-                                            l'informatique, j'ai eu l'avantage d'avoir accès à une véritable "base de
-                                            connaissance", et j'ai rapidement constitué ma propre FAQ sur le sujet.
-                                        </p>
-                                        <p>
-
-                                            Mon attrait pour la technologie m'a ensuite conduit à poursuivre des études
-                                            dans le domaine. J'ai obtenu un Baccalauréat en Sciences et Technologies
-                                            Industrielles en Génie Électrotechnique, suivi d'un BTS en Technicien de
-                                            Maintenance Industrielle en alternance. Durant cette période, j'ai continué
-                                            à cultiver ma passion pour l'informatique en parallèle, ce qui s'est révélé
-                                            extrêmement bénéfique dans différents aspects de mes études tels que la
-                                            rédaction de rapports de stage, le dessin industriel et la programmation
-                                            d'automates.
-                                        </p>
-                                        <p>
-                                            Parallèlement, l'arrivée d'Internet dans les foyers a été un tournant
-                                            décisif dans ma vie. J'ai découvert de nouvelles passions comme
-                                            l'électronique et la cybersécurité, bénéficiant d'un accès sans précédent à
-                                            l'information et à la possibilité de partager mes découvertes avec une
-                                            communauté enthousiaste. Mon intérêt pour la sécurité informatique m'a amené
-                                            à participer activement à plusieurs rassemblements et conférences sur ce
-                                            sujet, notamment la "Nuit du Hack", où j'ai pu non seulement élargir mes
-                                            connaissances, mais aussi nouer des relations précieuses avec d'autres
-                                            experts et passionnés des Nouvelles Technologies.
-                                        </p>
-                                        <p>
-                                            Aujourd'hui, fort de cette passion précoce pour l'informatique et de mes
-                                            solides formations en électrotechnique et en maintenance industrielle, je
-                                            suis animé par la volonté de relever de nouveaux défis professionnels dans
-                                            le domaine de la technologie et de l'informatique. Mon parcours m'a inculqué
-                                            un esprit curieux, une aisance dans la résolution de problèmes techniques et
-                                            une capacité à m'adapter rapidement aux évolutions technologiques. Je suis
-                                            convaincu que mon engagement et mes compétences pourraient constituer un
-                                            atout précieux pour toute entreprise qui recherche un professionnel
-                                            enthousiaste et compétent dans le domaine de l'informatique et des nouvelles
-                                            technologies.
-                                        </p>
-                                        <p>
-                                            Je vous remercie sincèrement pour l'attention portée à ma présentation et je
-                                            reste à votre disposition pour toute information complémentaire.
-                                        </p>
-
-                                        <h6 class="text-center m-4">Mon parcours </h6>
-                                        <hr>
-                                        <p>
-                                            Après l'obtention de mon BTS, j'ai commencé ma carrière en occupant des
-                                            postes en adéquation avec mes compétences techniques. Cependant, j'ai saisi
-                                            une opportunité exceptionnelle de revenir vers ma véritable passion,
-                                            l'informatique, en devenant Formateur aux Nouvelles Technologies de
-                                            l'Information. Au sein de cette fonction, j'ai eu le privilège d'enseigner à
-                                            un public de tous âges désireux de découvrir l'univers de l'informatique et
-                                            d'Internet. Cette expérience m'a encouragé à consolider mes connaissances et
-                                            compétences, ce qui m'a conduit à obtenir le diplôme DEUST Technologie des
-                                            Systèmes d'Information et de Communication. La mission de formateur m'a
-                                            permis de sortir fréquemment de ma zone de confort, mettant en lumière
-                                            l'importance capitale de la communication et du partage. Cette période
-                                            demeure, à ce jour, l'une des plus enrichissantes de ma carrière.
-                                        </p>
-                                        <p>
-
-                                            Par la suite, j'ai évolué vers un poste de Conseiller Technique des Systèmes
-                                            d'Information, en accord avec les qualités que j'avais développées lors de
-                                            mon précédent rôle de formateur : la capacité à dispenser des formations,
-                                            une approche pédagogique affirmée et le goût du partage. Au sein de ce
-                                            nouveau poste, j'ai eu l'occasion de découvrir le fonctionnement
-                                            organisationnel et de mener à bien le déploiement de projets informatiques
-                                            en étroite collaboration avec des équipes à la fois distantes (Service
-                                            Informatique National de développement) et locales (Services RH,
-                                            Comptabilité, Direction, Associations).
-                                        </p>
-                                        <p>
-                                            Ces expériences professionnelles m'ont permis d'affirmer mes compétences
-                                            dans le domaine de l'informatique et de développer des compétences
-                                            complémentaires en communication, gestion de projets et travail en équipe.
-                                            J'ai appris à m'adapter rapidement aux besoins spécifiques de chaque projet
-                                            et à résoudre efficacement les problèmes qui se présentaient. Ma passion
-                                            pour l'informatique, alliée à mon aisance dans la transmission des
-                                            connaissances, m'a permis de m'épanouir pleinement dans ces différents
-                                            rôles.
-                                        </p>
-                                        <p>
-                                            Fort de ce parcours diversifié et de ces expériences enrichissantes, je suis
-                                            animé par une volonté toujours plus grande de relever de nouveaux défis dans
-                                            le domaine de l'informatique et des technologies de l'information. Mon désir
-                                            de progresser et de continuer à apprendre me pousse à explorer de nouvelles
-                                            opportunités professionnelles où je pourrais mettre à profit mes compétences
-                                            techniques, mes qualités pédagogiques et mon sens de l'innovation.
-                                        </p>
-                                        <p>
-                                            Je vous remercie sincèrement pour l'attention portée à mon parcours, et je
-                                            reste enthousiaste à l'idée de contribuer à de futurs projets stimulants au
-                                            sein de votre entreprise. N'hésitez pas à me contacter pour toute
-                                            information complémentaire ou pour discuter de collaborations potentielles.
-                                        </p>
-
-                                        <h6 class="text-center m-4">Pourquoi me reconvertir dans le Développement Web !?
-                                        </h6>
-                                        <hr>
-                                        <p>
-                                            La décision de me reconvertir dans le développement web a émergé en 2020, un
-                                            moment marqué par la pandémie mondiale. Après avoir consacré de nombreuses
-                                            années à partager mes connaissances avec les autres en tant que Formateur
-                                            aux Nouvelles Technologies de l'Information, j'ai choisi de prendre un
-                                            nouveau tournant en quittant mon poste de Conseiller Technique des Systèmes
-                                            d'Information. Mon désir ardent est désormais de réintégrer le domaine qui
-                                            m'a toujours passionné, le développement web, que j'avais survolé pendant
-                                            quelques années.
-                                        </p>
-                                        <p>
-                                            Pour assouvir cette passion et me remettre à jour sur les avancées
-                                            technologiques et techniques que j'avais pu manquer dans le développement
-                                            web, j'ai entrepris une formation de Développeur Web/Web Mobile avec M2i
-                                            Formation. Cette démarche s'est révélée extrêmement enrichissante, car j'ai
-                                            pu explorer les nouveautés du développement web, avec une joie particulière
-                                            pour l'écriture du code. La collaboration en équipe, la résolution de
-                                            problèmes et de bugs, le partage d'idées, tout cela m'a conforté dans mon
-                                            choix de me lancer pleinement dans ce domaine. Cette formation m'a également
-                                            permis de consolider de nouvelles compétences, notamment en HTML, CSS, SASS,
-                                            Frameworks CSS, Algorithmie, JavaScript, React, React Native, PHP, SQL,
-                                            Agilité et les CMS.
-                                        </p>
-                                        <p>
-                                            Mon objectif est à présent d'intégrer une équipe de développeurs, afin de
-                                            continuer à acquérir une expérience significative dans le développement web
-                                            et de partager mes connaissances avec mes pairs. Parallèlement, je souhaite
-                                            poursuivre mes "side projects", notamment dans le domaine des Blockchains,
-                                            où je trouve une source d'inspiration et d'innovation constante. À plus long
-                                            terme, je nourris l'ambition de créer ma propre entreprise, idéalement dans
-                                            mon département de naissance, l'Aisne.
-                                        </p>
-                                        <p>
-                                            Je suis persuadé que cette reconversion dans le développement web est le
-                                            chemin que j'ai choisi pour m'épanouir pleinement sur le plan professionnel.
-                                            Mon enthousiasme pour l'informatique et mon désir de continuer à apprendre,
-                                            à évoluer et à relever de nouveaux défis me motivent chaque jour à aller de
-                                            l'avant dans cette voie.
-                                        </p>
-                                        <p>
-                                            Je vous remercie sincèrement pour l'intérêt que vous portez à mon parcours
-                                            de reconversion dans le développement web. Si l'opportunité se présente de
-                                            rejoindre votre équipe ou de collaborer ensemble, je serais ravi d'en
-                                            discuter plus amplement. N'hésitez pas à me contacter pour tout complément
-                                            d'information ou pour échanger sur de potentiels projets futurs
-                                        </p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-secondary"
-                                            data-bs-dismiss="modal">Fermer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        ...Plus d'info...
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
                     </div>
+                    <div class="modal-body text-justify">
+                      <h6 class="text-center m-4">
+                        D'où vient ma passion pour l'informatique !?
+                      </h6>
+                      <hr />
+                      <p>
+                        Je suis passionné d'informatique depuis mon plus jeune
+                        âge, ayant eu l'opportunité de découvrir cet univers
+                        fascinant en utilisant des ordinateurs personnels tels
+                        que le Thomson MO5 avec le langage BASIC, tant à la
+                        maison qu'à l'école. Au fil du temps, j'ai suivi
+                        l'évolution rapide des machines, des processeurs 8086,
+                        80286, 386, 486 jusqu'aux Pentiums, ce qui a alimenté ma
+                        curiosité naturelle pour comprendre la composition, la
+                        réparation et la programmation des ordinateurs. Pour
+                        approfondir mes connaissances, j'ai effectué de
+                        nombreuses recherches et lectures de manuels
+                        spécialisés, ce qui m'a permis de progresser
+                        significativement dans ce domaine. Fortement soutenu par
+                        une famille également passionnée par l'informatique,
+                        j'ai eu l'avantage d'avoir accès à une véritable "base
+                        de connaissance", et j'ai rapidement constitué ma propre
+                        FAQ sur le sujet.
+                      </p>
+                      <p>
+                        Mon attrait pour la technologie m'a ensuite conduit à
+                        poursuivre des études dans le domaine. J'ai obtenu un
+                        Baccalauréat en Sciences et Technologies Industrielles
+                        en Génie Électrotechnique, suivi d'un BTS en Technicien
+                        de Maintenance Industrielle en alternance. Durant cette
+                        période, j'ai continué à cultiver ma passion pour
+                        l'informatique en parallèle, ce qui s'est révélé
+                        extrêmement bénéfique dans différents aspects de mes
+                        études tels que la rédaction de rapports de stage, le
+                        dessin industriel et la programmation d'automates.
+                      </p>
+                      <p>
+                        Parallèlement, l'arrivée d'Internet dans les foyers a
+                        été un tournant décisif dans ma vie. J'ai découvert de
+                        nouvelles passions comme l'électronique et la
+                        cybersécurité, bénéficiant d'un accès sans précédent à
+                        l'information et à la possibilité de partager mes
+                        découvertes avec une communauté enthousiaste. Mon
+                        intérêt pour la sécurité informatique m'a amené à
+                        participer activement à plusieurs rassemblements et
+                        conférences sur ce sujet, notamment la "Nuit du Hack",
+                        où j'ai pu non seulement élargir mes connaissances, mais
+                        aussi nouer des relations précieuses avec d'autres
+                        experts et passionnés des Nouvelles Technologies.
+                      </p>
+                      <p>
+                        Aujourd'hui, fort de cette passion précoce pour
+                        l'informatique et de mes solides formations en
+                        électrotechnique et en maintenance industrielle, je suis
+                        animé par la volonté de relever de nouveaux défis
+                        professionnels dans le domaine de la technologie et de
+                        l'informatique. Mon parcours m'a inculqué un esprit
+                        curieux, une aisance dans la résolution de problèmes
+                        techniques et une capacité à m'adapter rapidement aux
+                        évolutions technologiques. Je suis convaincu que mon
+                        engagement et mes compétences pourraient constituer un
+                        atout précieux pour toute entreprise qui recherche un
+                        professionnel enthousiaste et compétent dans le domaine
+                        de l'informatique et des nouvelles technologies.
+                      </p>
+                      <p>
+                        Je vous remercie sincèrement pour l'attention portée à
+                        ma présentation et je reste à votre disposition pour
+                        toute information complémentaire.
+                      </p>
 
-                    <div class="col-12 col-md-6 py-2">
-                        <h3 class="text-center">Compétences</h3>
-                        <div class="skills-list d-flex flex-wrap justify-content-center align-items-center text-center">
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-html5 fa-2x">
-                                    Html5</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-css3-alt fa-2x"> Css3</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-sass fa-2x">
-                                    SASS</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-bootstrap fa-2x"> Bootstrap</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-js-square fa-2x"> Javascript</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-react fa-2x">
-                                    React/React Native</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i class="fab fa-git fa-2x">
-                                    Git</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i class="fab fa-php fa-2x">
-                                    PHP</i></button>
-                            <button class="btn btn-outline-secondary align-self-center m-2"><i
-                                    class="fab fa-wordpress fa-2x"> Wordpress</i></button>
-                        </div>
+                      <h6 class="text-center m-4">Mon parcours</h6>
+                      <hr />
+                      <p>
+                        Après l'obtention de mon BTS, j'ai commencé ma carrière
+                        en occupant des postes en adéquation avec mes
+                        compétences techniques. Cependant, j'ai saisi une
+                        opportunité exceptionnelle de revenir vers ma véritable
+                        passion, l'informatique, en devenant Formateur aux
+                        Nouvelles Technologies de l'Information. Au sein de
+                        cette fonction, j'ai eu le privilège d'enseigner à un
+                        public de tous âges désireux de découvrir l'univers de
+                        l'informatique et d'Internet. Cette expérience m'a
+                        encouragé à consolider mes connaissances et compétences,
+                        ce qui m'a conduit à obtenir le diplôme DEUST
+                        Technologie des Systèmes d'Information et de
+                        Communication. La mission de formateur m'a permis de
+                        sortir fréquemment de ma zone de confort, mettant en
+                        lumière l'importance capitale de la communication et du
+                        partage. Cette période demeure, à ce jour, l'une des
+                        plus enrichissantes de ma carrière.
+                      </p>
+                      <p>
+                        Par la suite, j'ai évolué vers un poste de Conseiller
+                        Technique des Systèmes d'Information, en accord avec les
+                        qualités que j'avais développées lors de mon précédent
+                        rôle de formateur : la capacité à dispenser des
+                        formations, une approche pédagogique affirmée et le goût
+                        du partage. Au sein de ce nouveau poste, j'ai eu
+                        l'occasion de découvrir le fonctionnement
+                        organisationnel et de mener à bien le déploiement de
+                        projets informatiques en étroite collaboration avec des
+                        équipes à la fois distantes (Service Informatique
+                        National de développement) et locales (Services RH,
+                        Comptabilité, Direction, Associations).
+                      </p>
+                      <p>
+                        Ces expériences professionnelles m'ont permis d'affirmer
+                        mes compétences dans le domaine de l'informatique et de
+                        développer des compétences complémentaires en
+                        communication, gestion de projets et travail en équipe.
+                        J'ai appris à m'adapter rapidement aux besoins
+                        spécifiques de chaque projet et à résoudre efficacement
+                        les problèmes qui se présentaient. Ma passion pour
+                        l'informatique, alliée à mon aisance dans la
+                        transmission des connaissances, m'a permis de m'épanouir
+                        pleinement dans ces différents rôles.
+                      </p>
+                      <p>
+                        Fort de ce parcours diversifié et de ces expériences
+                        enrichissantes, je suis animé par une volonté toujours
+                        plus grande de relever de nouveaux défis dans le domaine
+                        de l'informatique et des technologies de l'information.
+                        Mon désir de progresser et de continuer à apprendre me
+                        pousse à explorer de nouvelles opportunités
+                        professionnelles où je pourrais mettre à profit mes
+                        compétences techniques, mes qualités pédagogiques et mon
+                        sens de l'innovation.
+                      </p>
+                      <p>
+                        Je vous remercie sincèrement pour l'attention portée à
+                        mon parcours, et je reste enthousiaste à l'idée de
+                        contribuer à de futurs projets stimulants au sein de
+                        votre entreprise. N'hésitez pas à me contacter pour
+                        toute information complémentaire ou pour discuter de
+                        collaborations potentielles.
+                      </p>
+
+                      <h6 class="text-center m-4">
+                        Pourquoi me reconvertir dans le Développement Web !?
+                      </h6>
+                      <hr />
+                      <p>
+                        La décision de me reconvertir dans le développement web
+                        a émergé en 2020, un moment marqué par la pandémie
+                        mondiale. Après avoir consacré de nombreuses années à
+                        partager mes connaissances avec les autres en tant que
+                        Formateur aux Nouvelles Technologies de l'Information,
+                        j'ai choisi de prendre un nouveau tournant en quittant
+                        mon poste de Conseiller Technique des Systèmes
+                        d'Information. Mon désir ardent est désormais de
+                        réintégrer le domaine qui m'a toujours passionné, le
+                        développement web, que j'avais survolé pendant quelques
+                        années.
+                      </p>
+                      <p>
+                        Pour assouvir cette passion et me remettre à jour sur
+                        les avancées technologiques et techniques que j'avais pu
+                        manquer dans le développement web, j'ai entrepris une
+                        formation de Développeur Web/Web Mobile avec M2i
+                        Formation. Cette démarche s'est révélée extrêmement
+                        enrichissante, car j'ai pu explorer les nouveautés du
+                        développement web, avec une joie particulière pour
+                        l'écriture du code. La collaboration en équipe, la
+                        résolution de problèmes et de bugs, le partage d'idées,
+                        tout cela m'a conforté dans mon choix de me lancer
+                        pleinement dans ce domaine. Cette formation m'a
+                        également permis de consolider de nouvelles compétences,
+                        notamment en HTML, CSS, SASS, Frameworks CSS,
+                        Algorithmie, JavaScript, React, React Native, PHP, SQL,
+                        Agilité et les CMS.
+                      </p>
+                      <p>
+                        Mon objectif est à présent d'intégrer une équipe de
+                        développeurs, afin de continuer à acquérir une
+                        expérience significative dans le développement web et de
+                        partager mes connaissances avec mes pairs.
+                        Parallèlement, je souhaite poursuivre mes "side
+                        projects", notamment dans le domaine des Blockchains, où
+                        je trouve une source d'inspiration et d'innovation
+                        constante. À plus long terme, je nourris l'ambition de
+                        créer ma propre entreprise, idéalement dans mon
+                        département de naissance, l'Aisne.
+                      </p>
+                      <p>
+                        Je suis persuadé que cette reconversion dans le
+                        développement web est le chemin que j'ai choisi pour
+                        m'épanouir pleinement sur le plan professionnel. Mon
+                        enthousiasme pour l'informatique et mon désir de
+                        continuer à apprendre, à évoluer et à relever de
+                        nouveaux défis me motivent chaque jour à aller de
+                        l'avant dans cette voie.
+                      </p>
+                      <p>
+                        Je vous remercie sincèrement pour l'intérêt que vous
+                        portez à mon parcours de reconversion dans le
+                        développement web. Si l'opportunité se présente de
+                        rejoindre votre équipe ou de collaborer ensemble, je
+                        serais ravi d'en discuter plus amplement. N'hésitez pas
+                        à me contacter pour tout complément d'information ou
+                        pour échanger sur de potentiels projets futurs
+                      </p>
                     </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Fermer
+                      </button>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section id="projects">
-            <div class="container py-5">
-                <h2 class="text-center text-uppercase">Mes Projets</h2>
-                <hr>
-                <p>Vous trouverez ici les projets que j'ai réalisé à titre personnel ou lors de ma formation (Ex:
-                    Destination La Thiérache) </p>
-                <div id="project-portfolio"
-                    class="row flex-wrap-reverse justify-content-center align-items-center py-2">
-                    <div class="col-12 col-md-6">
-                        <img src="./assets/img/png/projets/Mockup-Portfolio_800x480.png" alt="Mockup Projet Portfolio"
-                            class="w-100">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3 class="text-center">Portfolio</h3>
-                        <p class="text-justify">Mon portfolio</p>
-                        <p class="text-justify">Frontend : HTML5, SASS, JS, BootStrap5</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <a class="btn btn-outline-secondary" role="button" aria-disabled="true">Voir le projet</a>
-                            <a target="_blank" rel="noreferrer"
-                                href="https://github.com/vincentfqt/vincentfqt.github.io">
-                                <i class="fab fa-github-square fa-3x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr class="d-grid w-25 mx-auto">
-                <div id="project-wallet-grapher"
-                    class="row flex-wrap-reverse justify-content-center align-items-center py-2">
-                    <div class="col-12 col-md-6">
-                        <img src="./assets/img/png/projets/Mockup-WalletGrapher_800x480.png"
-                            alt="Mockup Projet Wallet-Grapher" class="w-100">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3 class="text-center">Wallet-Grapher</h3>
-                        <p class="text-justify">Agrégateur de portefeuilles Crypto (Exchanges API et Wallet Metamask)
-                        </p>
-                        <p class="text-justify">Frontend : React JS, Redux, Web3, ChakraUI</p>
-                        <p class="text-justify">Backend : Node et ExpressJS</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <a class="btn btn-outline-secondary disabled" role="button"
-                                aria-disabled="true">Développement en cours ...</a>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/vincentfqt">
-                                <i class="fab fa-github-square fa-3x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr class="d-grid w-25 mx-auto">
-                <div id="project-destination-la-thierache"
-                    class="row flex-wrap-reverse justify-content-center align-items-center py-2">
-                    <div class="col-12 col-md-6">
-                        <img src="./assets/img/png/projets/Mockup-DLT_800x435.png"
-                            alt="Mockup Projet Destination La Thiérache" class="w-100">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3 class="text-center">Destination La Thiérache</h3>
-                        <p class="text-justify">Projet E-Commerce de Click and Collect sur le territoire de la Thiérache
-                            (Aisne)</p>
-                        <p class="text-justify">Frontend : React JS, Redux, CSS Modules, Formik, Yup</p>
-                        <p class="text-justify">Backend : API PHP MVC et MySQL</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <a class="btn btn-outline-secondary disabled" role="button"
-                                aria-disabled="true">Développement en cours ...</a>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/vincentfqt">
-                                <i class="fab fa-github-square fa-3x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr class="d-grid w-25 mx-auto">
-                <div id="project-react-mixer-table"
-                    class="row flex-wrap-reverse justify-content-center align-items-center py-2">
-                    <div class="col-12 col-md-6">
-                        <img src="./assets/img/png/projets/Mockup-React-Mixer-Table_800x480.png"
-                            alt="Mockup Projet React Mixer Table" class="w-100">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <h3 class="text-center">React Mixer Table</h3>
-                        <p class="text-justify">Projet Table de mixage flux de streaming (audio/video). Mixage
-                            Youtube/Dailymotion/SoundCloud/Mp3..., Moteur de recherche Youtube</p>
-                        <p class="text-justify">Frontend : React JS, Redux, CSS, API Youtube, Librairie Npm React-Player
-                        </p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <a class="btn btn-outline-secondary disabled" role="button"
-                                aria-disabled="true">Développement en cours ...</a>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/vincentfqt">
-                                <i class="fab fa-github-square fa-3x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <hr class="d-grid w-25 mx-auto">
+
+            <div class="col-12 col-md-6 py-2">
+              <h3 class="text-center">Compétences</h3>
+              <div
+                class="skills-list d-flex flex-wrap justify-content-center align-items-center text-center"
+              >
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-html5 fa-2x"> Html5</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-css3-alt fa-2x"> Css3</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-sass fa-2x"> SASS</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-bootstrap fa-2x"> Bootstrap</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-js-square fa-2x"> Javascript</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-react fa-2x"> React/React Native</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-git fa-2x"> Git</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-php fa-2x"> PHP</i>
+                </button>
+                <button class="btn btn-outline-secondary align-self-center m-2">
+                  <i class="fab fa-wordpress fa-2x"> Wordpress</i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="container py-5">
+          <h2 class="text-center text-uppercase">Mes Projets</h2>
+          <hr />
+          <p>
+            Vous trouverez ici les projets que j'ai réalisé à titre personnel ou
+            lors de ma formation (Ex: Destination La Thiérache)
+          </p>
+          <div
+            id="project-portfolio"
+            class="row flex-wrap-reverse justify-content-center align-items-center py-2"
+          >
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/img/png/projets/Mockup-Portfolio_800x480.png"
+                alt="Mockup Projet Portfolio"
+                class="w-100"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <h3 class="text-center">Portfolio</h3>
+              <p class="text-justify">Mon portfolio</p>
+              <p class="text-justify">Frontend : HTML5, SASS, JS, BootStrap5</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="btn btn-outline-secondary"
+                  role="button"
+                  aria-disabled="true"
+                  >Voir le projet</a
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/vincentfqt/vincentfqt.github.io"
+                >
+                  <i class="fab fa-github-square fa-3x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr class="d-grid w-25 mx-auto" />
+          <div
+            id="project-wallet-grapher"
+            class="row flex-wrap-reverse justify-content-center align-items-center py-2"
+          >
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/img/png/projets/Mockup-WalletGrapher_800x480.png"
+                alt="Mockup Projet Wallet-Grapher"
+                class="w-100"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <h3 class="text-center">Wallet-Grapher</h3>
+              <p class="text-justify">
+                Agrégateur de portefeuilles Crypto (Exchanges API et Wallet
+                Metamask)
+              </p>
+              <p class="text-justify">
+                Frontend : React JS, Redux, Web3, ChakraUI
+              </p>
+              <p class="text-justify">Backend : Node et ExpressJS</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="btn btn-outline-secondary disabled"
+                  role="button"
+                  aria-disabled="true"
+                  >Développement en cours ...</a
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/vincentfqt"
+                >
+                  <i class="fab fa-github-square fa-3x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr class="d-grid w-25 mx-auto" />
+          <div
+            id="project-destination-la-thierache"
+            class="row flex-wrap-reverse justify-content-center align-items-center py-2"
+          >
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/img/png/projets/Mockup-DLT_800x435.png"
+                alt="Mockup Projet Destination La Thiérache"
+                class="w-100"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <h3 class="text-center">Destination La Thiérache</h3>
+              <p class="text-justify">
+                Projet E-Commerce de Click and Collect sur le territoire de la
+                Thiérache (Aisne)
+              </p>
+              <p class="text-justify">
+                Frontend : React JS, Redux, CSS Modules, Formik, Yup
+              </p>
+              <p class="text-justify">Backend : API PHP MVC et MySQL</p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="btn btn-outline-secondary disabled"
+                  role="button"
+                  aria-disabled="true"
+                  >Développement en cours ...</a
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/vincentfqt"
+                >
+                  <i class="fab fa-github-square fa-3x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr class="d-grid w-25 mx-auto" />
+          <div
+            id="project-react-mixer-table"
+            class="row flex-wrap-reverse justify-content-center align-items-center py-2"
+          >
+            <div class="col-12 col-md-6">
+              <img
+                src="./assets/img/png/projets/Mockup-React-Mixer-Table_800x480.png"
+                alt="Mockup Projet React Mixer Table"
+                class="w-100"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <h3 class="text-center">React Mixer Table</h3>
+              <p class="text-justify">
+                Projet Table de mixage flux de streaming (audio/video). Mixage
+                Youtube/Dailymotion/SoundCloud/Mp3..., Moteur de recherche
+                Youtube
+              </p>
+              <p class="text-justify">
+                Frontend : React JS, Redux, CSS, API Youtube, Librairie Npm
+                React-Player
+              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <a
+                  class="btn btn-outline-secondary disabled"
+                  role="button"
+                  aria-disabled="true"
+                  >Développement en cours ...</a
+                >
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/vincentfqt"
+                >
+                  <i class="fab fa-github-square fa-3x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <hr class="d-grid w-25 mx-auto">
                 <div id="project3" class="row flex-wrap-reverse justify-content-center align-items-center py-2">
                     <div class="col-12 col-md-6">
                         <img src="./assets/img/jpg/project-mockup-example.jpeg" alt="Mockup Projet" class="w-100">
@@ -414,77 +626,118 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-        </section>
-        <section id="contact">
-            <div class="container py-5">
-                <h2 class="text-center text-uppercase">Contact</h2>
-                <hr>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container py-5">
+          <h2 class="text-center text-uppercase">Contact</h2>
+          <hr />
 
-                <div class="row">
-                    <div class="col-12 col-md">
-                        <form id="contact-form">
-                            <input type="hidden" name="contact_number">
-                            <div class="mb-3">
-                                <label class="form-label" for="name">Nom</label>
-                                <input required type="text" class="form-control" name="name" id="name"
-                                    placeholder="Votre nom" aria-label="Name" />
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="email">Email</label>
-                                <input required type="email" class="form-control" name="email" placeholder="Votre email"
-                                    aria-label="Email">
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label" for="message">Message</label>
-                                <textarea required cols="30" rows="10" class="form-control"
-                                    placeholder="Entrer votre message ici..." name="message" id="message"
-                                    aria-label="Message"></textarea>
-                            </div>
-                            <div class="d-grid gap-2 col-6 mx-auto mb-3">
-                                <button type="submit" name="submit" class="btn btn-outline-light" aria-label="Envoyer">
-                                    Envoyer
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-12 col-md">
-                        <div class="d-flex justify-content-center align-items-center">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772421.0435886844!2d2.5030748652594035!3d49.46998087982865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e852bf189bd0db%3A0x30af13e81612590!2sAisne!5e0!3m2!1sfr!2sfr!4v1633893014360!5m2!1sfr!2sfr"
-                                width="100%" height="460" style="border:0;" loading="lazy"></iframe>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-12 col-md">
+              <form id="contact-form">
+                <input type="hidden" name="contact_number" />
+                <div class="mb-3">
+                  <label class="form-label" for="name">Nom</label>
+                  <input
+                    required
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    id="name"
+                    placeholder="Votre nom"
+                    aria-label="Name"
+                  />
                 </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email">Email</label>
+                  <input
+                    required
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="Votre email"
+                    aria-label="Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea
+                    required
+                    cols="30"
+                    rows="10"
+                    class="form-control"
+                    placeholder="Entrer votre message ici..."
+                    name="message"
+                    id="message"
+                    aria-label="Message"
+                  ></textarea>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto mb-3">
+                  <button
+                    type="submit"
+                    name="submit"
+                    class="btn btn-outline-light"
+                    aria-label="Envoyer"
+                  >
+                    Envoyer
+                  </button>
+                </div>
+              </form>
             </div>
-        </section>
+            <div class="col-12 col-md">
+              <div class="d-flex justify-content-center align-items-center">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772421.0435886844!2d2.5030748652594035!3d49.46998087982865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e852bf189bd0db%3A0x30af13e81612590!2sAisne!5e0!3m2!1sfr!2sfr!4v1633893014360!5m2!1sfr!2sfr"
+                  width="100%"
+                  height="460"
+                  style="border: 0"
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="container py-5">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-4">&copy;2021 Vincent-FQT</div>
-                <div class="col-4 d-flex justify-content-end">
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/vincent-fouquart/">
-                        <i class="fab fa-linkedin fa-4x"></i>
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/vincentfqt">
-                        <i class="fab fa-github-square fa-4x"></i>
-                    </a>
-                </div>
-            </div>
-            <hr>
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-12 text-center">
-                    <a href="#home">Retour haut de page</a>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-4">&copy;2021 Vincent-FQT</div>
+          <div class="col-4 d-flex justify-content-end">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/vincent-fouquart/"
+            >
+              <i class="fab fa-linkedin fa-4x"></i>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/vincentfqt"
+            >
+              <i class="fab fa-github-square fa-4x"></i>
+            </a>
+          </div>
         </div>
+        <hr />
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 text-center">
+            <a href="#home">Retour haut de page</a>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script src="./js/index.js"></script>
-</body>
-
+  </body>
 </html>
